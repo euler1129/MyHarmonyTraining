@@ -1,0 +1,84 @@
+{
+  "module": {
+    "name": "entry",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "mainElement": "EntryAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ts",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:yunshanfu",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:yunshanfu",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MyEntryAbility",
+        "srcEntry": "./ets/myentryability/MyEntryAbility.ts",
+        "description": "$string:MyEntryAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:MyEntryAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background"
+      },
+      {
+        "name": "LoginEntryAbility",
+        "srcEntry": "./ets/loginentryability/LoginEntryAbility.ts",
+        "description": "$string:LoginEntryAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:LoginEntryAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background"
+      },
+      {
+        "name": "PufaHomePageEntryAbility",
+        "srcEntry": "./ets/pufahomepageentryability/PufaHomePageEntryAbility.ts",
+        "description": "$string:PufaHomePageEntryAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:PufaHomePageEntryAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background"
+      }
+    ],
+    "extensionAbilities": [
+      {
+        "name": "EntryFormAbility",
+        "srcEntry": "./ets/entryformability/EntryFormAbility.ts",
+        "label": "$string:EntryFormAbility_label",
+        "description": "$string:EntryFormAbility_desc",
+        "type": "form",
+        "metadata": [
+          {
+            "name": "ohos.extension.form",
+            "resource": "$profile:form_config"
+          }
+        ]
+      }
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.READ_MEDIA",
+      }
+    ]
+  }
+}

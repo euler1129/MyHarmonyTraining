@@ -1,0 +1,64 @@
+{
+  "app": {
+    "signingConfigs": [
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MyLibrary",
+      "srcPath": "./MyLibrary"
+    },
+    {
+      "name": "Common",
+      "srcPath": "./Common"
+    },
+    {
+      "name": "BCR",
+      "srcPath": "./BCR",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Picture_File_TakePhoto_Library",
+      "srcPath": "./Picture_File_TakePhoto_Library"
+    },
+    {
+      "name": "NativeTest",
+      "srcPath": "./NativeTest",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

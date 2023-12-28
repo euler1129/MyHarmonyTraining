@@ -1,0 +1,27 @@
+{
+  "module": {
+    "name": "BCR",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "mainElement": "BCRAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "BCRAbility",
+        "srcEntry": "./ets/bcrability/BCRAbility.ts",
+        "description": "$string:BCRAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:BCRAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      }
+    ]
+  }
+}

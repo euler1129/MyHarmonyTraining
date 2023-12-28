@@ -1,0 +1,10 @@
+{
+  "module": {
+    "name": "Picture_File_TakePhoto_Library",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+1.正确 每个组件都有自己的生命周期
+2.正确 一站式集成开发环境
+3.正确 @Link 不能初始化
+4.正确 router.pushUrl()
+5.正确 OpenHarmony生态
+6.正确 系统类型 轻量型 小型 标准
+7.C app.json5
+8.D 不能双向通信 @State @Prop
+9.B router.replaceUrl()
+10.D 当 barPosition 为 End ，vertical 属性为 true 时，页签位于容器底部
+11.C standard 为标准模式，每次startAbility 都会启动一个新的实例，系统默认为standard模式
+12.A 路由配置 main_pages.json
+13.B 页面路由导包 import router from '@ohos.router'
+14.CD 可以用于管理自定义组件中变量状态装饰器 @State @Link
+15.ABCD Tabs 组件和 TabContent 组件
+16.BCD ForEach(arr, itemGenerator, index)
+17.ABD module.json5 配置文件包含  ability的相关配置信息 模块名 模块类型

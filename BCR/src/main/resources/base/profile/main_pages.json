@@ -1,0 +1,6 @@
+{
+  "src": [
+    "pages/NAPITest",
+    "pages/SelectPictureOrFile_TakePhoto"
+  ]
+}

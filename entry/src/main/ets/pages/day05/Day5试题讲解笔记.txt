@@ -1,0 +1,22 @@
+1.错误 want ability传递 bundleName不强制
+2.正确 ability最小单元
+3.错误 首选项
+4.错误 首选项 key不重复
+5.错误 日志级别 最高级别 fatal
+6.正确 flex布局
+7.错误 http
+8.B ohos.permission.INTERNET
+9.B RequestMethod.POST
+10.B 页面路由
+11.C Radio
+12.B Row
+13.B @ohos.data.preferences
+14.C update()
+15.B app pack
+16.A SlotType.SOCIAL_COMMUNICATION
+17.D
+18.ABCD
+19.ABCD
+20.ACD
+21.ABCD
+22.BCD

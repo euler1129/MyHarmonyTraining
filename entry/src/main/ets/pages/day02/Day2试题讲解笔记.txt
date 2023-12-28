@@ -1,0 +1,32 @@
+1.正确 Ability 系统调度应用的最小单元
+2.正确 分布式软总线
+3.错误 自定义组件生命周期 onPageShow不对
+4.正确 系统类型分类 轻量 小型 标准
+5.正确 自定义组件都有自已的生命周期
+6.错误 @Prop 单向传输
+7.正确 column row justifyContent 主轴对齐 alignItems 交叉对齐
+8.正确 Tabs TabsContent
+9.正确 Flex 二次布局
+10.错误 远程 本地 都要签名
+11.正确 @State UI刷新
+12.正确 Stage Ability singleton
+13.错误 button capsule borderRadius 生效
+14.D FlexAlign.SpaceBetween 两端对齐
+15.D Loading Progress 不包含子组件
+16.D 多选 checkbox
+17.A Button 胶囊型按钮 ButtonType.capsule
+18.D Tabs 标签位置设置
+19.B 页面入口 @Entry
+20.D Row Column 交叉轴 alignItems ItemAlign
+21.D 不能父子组件双向通信 @State @Prop
+22.C Resource并不支持所有数据类型
+23.C UIAbility启动模式 默认singleton
+24.C @State必须给初值
+25.A 路由信息 main_pages.json
+26.ABCD Tabs TabContent
+27.BCD module.json5 包含权限 设备信息 ability配置
+28.ABCDEF ArkTS声明式开发范式
+29.ABCDE 包含文本元素的组件的属性
+30.ABD 可滚动容器组件 scroll list grid
+31.BCD ForEach(arr, itemGenerator, keyGenerator)
+32.ABE 组件层次结构

@@ -1,0 +1,16 @@
+{
+  "license": "",
+  "devDependencies": {},
+  "author": "",
+  "name": "entry",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "version": "1.0.0",
+  "dependencies": {
+    "mylibrary": "file:../MyLibrary",
+    "@ohos/lottie": "^2.0.7",
+    "common": "file:../Common",
+    "picture_file_takephoto_library": "file:../Picture_File_TakePhoto_Library",
+    "bcr": "file:../BCR"
+  }
+}

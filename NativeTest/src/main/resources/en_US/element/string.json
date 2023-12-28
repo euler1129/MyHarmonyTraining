@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "NativeTestAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "NativeTestAbility_label",
+      "value": "label"
+    }
+  ]
+}

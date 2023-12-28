@@ -1,0 +1,69 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "text",
+      "value": "#182431"
+    },
+    {
+      "name": "set_chat_right_bg",
+      "value": "#D7E9F3"
+    },
+    {
+      "name": "set_chat_left_bg",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "setting_item_divider",
+      "value": "#0d182431"
+    },
+    {
+      "name": "page_color",
+      "value": "#f2f2f2"
+    },
+    {
+      "name": "outer_canvas_title",
+      "value": "#182431"
+    },
+    {
+      "name": "outer_button_font",
+      "value": "#007DFF"
+    },
+    {
+      "name": "outer_button_bg",
+      "value": "#dedbdb"
+    },
+    {
+      "name": "background_color",
+      "value": "#F1F3F5"
+    },
+    {
+      "name": "find_text_font_color",
+      "value": "#E84026"
+    },
+    {
+      "name": "find_text_background_color",
+      "value": "#1AE84026"
+    },
+    {
+      "name": "mine_background_color",
+      "value": "#E4E4E4"
+    },
+    {
+      "name": "bottom_tabs_font_color",
+      "value": "#000000"
+    },
+    {
+      "name": "bottom_tabs_font_color_selected",
+      "value": "#007DFF"
+    },
+    {
+      "name": "bottom_tabs_background_color",
+      "value": "#F1F3F5"
+    }
+
+  ]
+}
